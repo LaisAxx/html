@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <main>
+        <h1>Form HTML</h1>
+        <hr>
+        <form action="" method="post">
+            <div>
+                <label for="input_name">Name:</label>
+                <input type="text" id="input_name" name="name" placeholder="what's your name?" >
+            </div>
+
+            <div>
+                <label for="input_password">Password:</label>
+                <input type="password" id="input_password" name="password">
+            </div>
+
+            <div>
+                <label for="input_email">Email:</label>
+                <input type="email" id="input_email" name="email">
+            </div>
+
+            <div>
+                <label for="input_date">Date:</label>
+                <input type="date" id="input_date" name="date">
+            </div>
+
+            <div>
+                <label for="input_time">Time:</label>
+                <input type="time" id="input_time" name="time">
+            </div>
+
+            <div>
+                <label for="input_number">Number:</label>
+                <input type="number" id="input_number" name="number">
+            </div>
+
+            <div>
+                <label for="input_file">File:</label>
+                <input type="file" id="input_file" name="file">
+            </div>
+
+            <div>
+                <label for="input_url">URL:</label>
+                <input type="url" id="input_url" name="url">
+            </div>
+
+            <div>
+                <label for="input_color">Color:</label>
+                <input type="color" id="input_color" name="color">
+            </div>
+
+            <div>
+                <label for="input_range">Range:</label>
+                <input type="range" id="input_range" name="range" value="20" max="200" min="0">
+            </div>
+            <div>
+                <label for="input_checkbox">Checkbox:</label>
+                <input type="checkbox" id="input_checkbox" name="checkbox" checked>
+            </div>
+
+            <div>
+                <fieldset>
+                    <legend>Radio Form</legend>
+                    <div>
+                        <input type="radio" id="input_radio" name="radio">
+                        <label for="input_radio">Brazil</label> 
+                    </div>
+                    <div>
+                        <input type="radio" id="input_radio" name="radio">
+                        <label for="input_radio">Italy</label> 
+                    </div>
+                </fieldset>
+            </div>
+
+            <div>
+                <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+            </div>
+
+            <select name="select" id="select">
+                <option value="" disabled selected>Select one of the options</option>
+                <option value="revenue">Revenue</option>
+                <option value="cost">Cost</option>
+                <option value="tranfer">Tranfer</option>
+            </select>
+
+            <div>
+                <label for="input_reset">Reset </label> 
+                <input type="reset" id="input_reset" name="reset">
+            </div>
+
+            <div>
+                <input type="submit" id="input_submit" name="submit" value="Submit">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
